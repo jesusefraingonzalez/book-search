@@ -1,5 +1,4 @@
 const { Book } = require("../models");
-const { deleteOne } = require("../models/book");
 
 module.exports = {
 	findAll: (req, res) => {
